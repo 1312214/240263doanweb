@@ -115,13 +115,13 @@
         <div class="panel-body">
             <div class="row">
                 <div class="col-md-4">
-                    <img id="big" src="imgs/product/iphone/1.jpg"  class="img-thumbnail" data-zoom-image="imgs/product/iphone/1.jpg" />
+                    <img id="big" src="../imgs/product/iphone/1.jpg"  class="img-thumbnail" data-zoom-image="imgs/product/iphone/1.jpg" />
                     <br>
                     <br>
                     <div class="row text-center">
                         <script type="text/javascript">
                             for (var i = 1; i <= 4; i++ ) {
-                                var html = '<img class="img-thumbnail" src="imgs/product/iphone/' + i + '.jpg" width="50" height="100" onclick="show(\'' + i + '.jpg\')" />';
+                                var html = '<img class="img-thumbnail" src="../imgs/product/iphone/' + i + '.jpg" width="50" height="100" onclick="show(\'' + i + '.jpg\')" />';
                                 document.write(html);
                             }
                         </script>
@@ -289,9 +289,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="row text-right">
-                        <a href=""><img src="imgs/email.png" height="20" width="30" class=""> </span> </a>
-                        <a href=""><img src="imgs/facebook.png" height="20" width="30" class=""> </a>
-                        <a href=""><img src="imgs/twitter.png" height="20" width="30" class=""> </a>
+                        <a href=""><img src="../imgs/email.png" height="20" width="30" class=""> </span> </a>
+                        <a href=""><img src="../imgs/facebook.png" height="20" width="30" class=""> </a>
+                        <a href=""><img src="../imgs/twitter.png" height="20" width="30" class=""> </a>
                         <a href="">Add to watch list </a>
                     </div>
                     <div class="panel panel-default">
@@ -307,7 +307,7 @@
                         </div>
                     </div>
                     <a href="#">
-                        <img src="imgs/newDealsAllDayLog.jpg" border="0" width="300" height="250" alt="eBay Deals" class="">
+                        <img src="../imgs/newDealsAllDayLog.jpg" border="0" width="300" height="250" alt="eBay Deals" class="">
                     </a>
                 </div>
             </div>
@@ -322,7 +322,7 @@
                 <div class="row">
                     <script type="text/javascript">
                         for (var i = 1; i <= 4; i++ ) {
-                            var html = '<img class="img-thumbnail" src="imgs/product/iphone/' + i + '.jpg" width="300" height="500" />';
+                            var html = '<img class="img-thumbnail" src="../imgs/product/iphone/' + i + '.jpg" width="300" height="500" />';
                             document.write(html);
                         }
                     </script>
@@ -491,7 +491,7 @@
     function show(imgUrl) {
         var bigImg = document.getElementById("big");
         if (bigImg != null) {
-            bigImg.src = 'imgs/product/iphone/' + imgUrl;
+            bigImg.src = '../imgs/product/iphone/' + imgUrl;
         }
     }
 
