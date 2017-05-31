@@ -1,0 +1,24 @@
+
+
+#header #top-nav, .bordertest{
+	border: 1px solid green;
+}
+
+.logo{
+	width: 65%;
+
+}
+
+#top-bar{
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: #F8F8F8;
+}
+
+.float-shopbycategory{
+	float: left;
+}
+
+.vertical-align-center{
+	vertical-align: center;
+}
