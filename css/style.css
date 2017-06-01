@@ -1,0 +1,63 @@
+body{
+	background-color: #f7f7f7;
+}
+
+nav > div > div > ul .my-li{
+	padding-right: 25px;
+}
+
+.my-navbar{
+	margin-bottom: 2px;
+	background-color: white;
+	box-shadow: 0 2px #dadada;
+}
+
+.my-row{
+	padding-top: 8px;
+}
+
+.my-brand{
+	width: 11%;
+}
+
+.my-content{
+	margin: 25px 0 25px 24%;
+	border: solid 1px #cccccc;
+	border-radius: 3px;
+	width: 57%;
+	box-shadow: 4px 4px 3px #eeeeee;
+	background: white;
+}
+
+.my-tittle{
+	padding-right: 15px;
+}
+
+.my-navbar1{
+	padding-top: 15px;
+
+}
+
+.my-label{
+	font-weight: normal;
+}
+
+hr{
+	margin: 0px;
+	padding-bottom: 15px;
+}
+
+.my-pagination{
+    position: relative;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+
+}
+
+.my-footer{
+	padding-bottom: 15px;
+	border: solid 1px #cccccc;
+	border-radius: 3px;
+}
