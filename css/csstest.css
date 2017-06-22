@@ -1,12 +1,46 @@
 
 
-#header #top-nav, .bordertest{
+.green-line{
 	border: 1px solid green;
 }
 
 .logo{
 	width: 65%;
 
+}
+
+.row-no-padding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+.modal-content-custom-no-right-radius{
+    -webkit-border-top-right-radius: 0px !important;
+    -webkit-border-bottom-right-radius: 0px !important;
+    -moz-border-top-right-radius: 0px !important;
+    -moz-border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+
+}
+
+.modal-content-custom-no-left-radius{
+    -webkit-border-top-left-radius: 0px !important;
+    -webkit-border-bottom-left-radius: 0px !important;
+    -moz-border-top-left-radius: 0px !important;
+    -moz-border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+
+}
+
+.logo-size{
+	width: 100%;
+
+}
+
+.vertical-center{
+	  margin-top: 15px;
 }
 
 #top-bar{
@@ -16,9 +50,14 @@
 }
 
 .float-shopbycategory{
-	float: left;
+	float: right;
 }
 
 .vertical-align-center{
 	vertical-align: center;
+}
+
+
+.btn-search-padding-left{
+	padding-left: 5px !important;
 }
